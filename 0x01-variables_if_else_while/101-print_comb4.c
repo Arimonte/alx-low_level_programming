@@ -20,6 +20,7 @@ int main(void)
 			{
 				if (k > j && j > i)
 				{					
+				 	
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
