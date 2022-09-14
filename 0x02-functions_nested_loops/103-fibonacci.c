@@ -1,38 +1,32 @@
 #include <stdio.h>
 
 /**
-
  * main - main function
-
  *
-
  * Return: nothing
-
  */
 
 int main(void)
 
 {
 
-	int counter = 2;
+	int counter = 0;
 
 	long int a = 1;
 
-	long int b = a + 1;
+	long int b = a;
 
 	long int c = a + b;
 
-
-
-	printf("%ld, %ld, ", a, b);
-
-	while (counter < 50)
+	while (c < 4000000)
 
 	{
 
-		printf("%ld", c);
+		if (c % 2 == 0)
 
-		counter++;
+		{
+			counter += c;
+		}
 
 		a = b;
 
@@ -40,18 +34,8 @@ int main(void)
 
 		c = a + b;
 
-		if (counter < 50)
-
-		{
-
-			printf(", ");
-
-		}
-
 	}
 
-	printf("\n");
-
+	printf("%d\n", counter);
 	return (0);
-
 }
