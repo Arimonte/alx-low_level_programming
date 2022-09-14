@@ -41,7 +41,3 @@ int print_sign(int n)
 	}
 
 }
-
-Footer
-
-© 2022 Git
