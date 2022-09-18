@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * prin_square - entry pointt
+ * print_square - entry pointt
  * @size: character to be checked
  * Return: none
  */
