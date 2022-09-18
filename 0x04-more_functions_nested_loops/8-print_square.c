@@ -5,6 +5,7 @@
  * @size: character to be checked
  * Return: none
  */
+
 void print_square(int size)
 {
 	int i, j;
