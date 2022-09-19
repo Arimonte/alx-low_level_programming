@@ -29,7 +29,7 @@ void print_triangle(int size)
 				a = 0;
 				while (a < i)
 				{
-					_pchar(35);
+					_putchar(35);
 					a++;
 				}
 				_putchar('\n');
