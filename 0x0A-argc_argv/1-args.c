@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 /**
-* main - Entry Point
-* @argc: Number of arguments passed
-* @argv: Vector of arguments string
-*
-* Return: Always (0) Success
-*/
+ * main - a program that prints all arguments it receives.
+ * @argc: arguement count
+ * @argv: array of pointers to arguement strings
+ * Return: 0
+ **/
 
-int main(int argc, char **argv _attribute_((unused)))
+int main(int argc, char *argv[])
+
 {
-	printf("%d\n", argc - 1);
+
+	(void) argv;
+
+		printf("%d\n", argc - 1);
 
 	return (0);
+
 }
