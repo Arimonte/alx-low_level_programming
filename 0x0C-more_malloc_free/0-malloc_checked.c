@@ -1,3 +1,5 @@
+#include "main.h"
+
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -5,7 +7,7 @@
 #include <limits.h>
 
 /**
- * main - check the code to be used
+ * main - check the code to be used.
  *
  * Return: Always 0.
  */
@@ -32,5 +34,4 @@ int main(void)
 	free(d);
 
 	return (0);
-
 }
