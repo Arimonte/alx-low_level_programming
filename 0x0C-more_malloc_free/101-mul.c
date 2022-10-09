@@ -1,7 +1,5 @@
 #include "main.h"
-
 #include <stdio.h>
-
 #include <stdlib.h>
 
 /**
@@ -11,9 +9,7 @@
  *
  * Return: void
  */
-
 void _print(char *str, int l)
-
 {
 	int i, j;
 
@@ -26,7 +22,6 @@ void _print(char *str, int l)
 			putchar(str[i]);
 		i++;
 	}
-
 	putchar('\n');
 	free(str);
 }
@@ -43,7 +38,6 @@ void _print(char *str, int l)
  */
 
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
-
 {
 	int j, k, mul, mulrem, add, addrem;
 
@@ -130,7 +124,7 @@ int main(int argc, char *argv[])
 			putchar(e[ti]);
 		exit(98);
 	}
-	for (l1 = 0; argv[1][l1]; l1++
+	for (l1 = 0; argv[1][l1]; l1++)
 		;
 	for (l2 = 0; argv[2][l2]; l2++)
 		;
