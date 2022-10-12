@@ -3,25 +3,27 @@
 #include "dog.h"
 
 /**
- * print_dog - print dog struct
- * @d: dog struct pointer
- *
- * Return: void
+ * print_dog - prints all member info of a struct dog
+ * @d: a variable of type struct dog
  */
 
 void print_dog(struct dog *d)
 
 {
-	if (!d)
+
+	if (d == NULL) /* validate if d initiated correctly */
 
 		return;
 
-	!d->name ? printf("Name: %p\n", d->name) : printf("Name: %s\n", d->name);
+	(d->name == NULL) ? printf("Name: (nil)\n")
+
+		: printf("Name: %s\n", d->name);
 
 
 	printf("Age: %f\n", d->age);
 
+	(d->owner == NULL) ? printf("Owner: (nil)\n")
 
-	!d->owner ? printf("Owner: %p\n", d->owner) : printf("Owner: %s\n", d->owner);
+		: printf("Owner: %s\n", d->owner);
 
 }
