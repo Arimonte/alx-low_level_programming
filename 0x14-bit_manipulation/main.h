@@ -1,15 +1,13 @@
-#ifndef MAIN_H
+#ifndef HEADER_H
 
-#define MAIN_H
+#define HEADER_H
 
-/*
- * File: main.h
- *
- * Desc: Header file containing prototypes for all functions
- *       written in the 0x13-bit_manipulation directory.
- */
+#include <stdlib.h> /* NULL */
 
+/* helper function */
 int _putchar(char c);
+
+/* function prototypes for all files */
 
 unsigned int binary_to_uint(const char *b);
 
@@ -25,6 +23,4 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
 int get_endianness(void);
 
-
-
-#endif /* MAIN_H */
+#endif
