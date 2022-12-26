@@ -1,1 +1,1 @@
-My dynamic libraries readme
+My Dynamics libraries readme
